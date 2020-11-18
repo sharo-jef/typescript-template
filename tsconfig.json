@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "typeRoots": [
+            "node_modules/@types",
+            "src/@types"
+        ],
+        "strictNullChecks": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

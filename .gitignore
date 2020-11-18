@@ -1,0 +1,11 @@
+# node
+node_modules
+
+# environment
+.env
+
+# dist
+dist
+
+# editor
+.vscode
