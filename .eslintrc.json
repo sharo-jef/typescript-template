@@ -60,6 +60,7 @@
                 "asyncArrow": "always"
             }
         ],
-        "key-spacing": [2, {"beforeColon": false, "afterColon": true}]
+        "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+        "no-empty": [2, {"allowEmptyCatch": true}]
     }
 }
