@@ -1,7 +1,7 @@
 {
-  "name": "typescript",
+  "name": "typescript-template",
   "version": "1.0.0",
-  "description": "template",
+  "description": "typescript template",
   "main": "dist/index.js",
   "scripts": {
     "start": "node -r dotenv/config .",
