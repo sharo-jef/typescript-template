@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "tsc --build",
-    "test": "tsc --noEmit && jest"
+    "build": "rm -rf dist && node ./build.mjs",
+    "test": "tsc --noEmit && jest",
+    "test:c": "jest --coverage"
   },
   "author": "sharo-jef",
   "license": "MIT",
